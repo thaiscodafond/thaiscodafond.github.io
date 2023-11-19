@@ -1,0 +1,22 @@
+.academic_ed li {
+    width: 50ch;
+    background-color: #f5f5f5;
+    margin-bottom: 0.5em;
+    padding: 1em;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    transition: box-shadow 0.2s ease-in-out;
+    text-align: left;
+    width: 100%;
+  }
+
+  .academic_ed li:hover {
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+
+  .academic_ed li .duration {
+    font-weight: bold;
+  }
+
+  .academic_ed li .where {
+    font-style: italic;
+  }
