@@ -1,0 +1,13 @@
+<section class="academic_ed">
+  <h2>Academic Education</h2>
+  <ul>
+    <li *ngFor="let education of educations">
+      <app-education-item
+        [title]="education.title"
+        [where]="education.where"
+        [duration]="education.duration"
+        [description]="education.description"
+      ></app-education-item>
+    </li>
+  </ul>
+</section>

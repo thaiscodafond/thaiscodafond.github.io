@@ -1,0 +1,77 @@
+/* Logo */
+.logo-container {
+    animation: sway 2s ease-in-out infinite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .logo-container span {
+    font-size: 4rem;
+  }
+  
+  @keyframes sway {
+    0% {
+      transform: rotate(-5deg);
+    }
+    50% {
+      transform: rotate(5deg);
+    }
+    100% {
+      transform: rotate(-5deg);
+    }
+  }
+  
+  .logo-container:hover {
+    animation: none;
+  }
+  
+    /* Intro */
+    
+  .intro-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .intro-container article {
+    width: 50%;
+    flex: 1;
+  }
+  
+  .intro-container h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 0;
+  }
+  
+  .intro-container p {
+    font-size: 1rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .intro-container {
+      flex-direction: column;
+    }
+    .intro-container article {
+      width: 100%;
+    }
+  }
+  
+  #intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #simplesum {
+    font-size: 1.5rem;
+    width: 60ch;
+  }
+  #name {
+    display: block;
+    font-family: "Plaster", cursive;
+    text-decoration: none;
+    font-size: 6rem;
+    color: var(--main-color);
+  }
