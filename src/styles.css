@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Rubik+Mono+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plaster&display=swap");
+
+:root {
+  font-family: "Abel", sans-serif;
+  --main-color: #ea2c65;
+  --complementary-color: #93cd4e;
+}
